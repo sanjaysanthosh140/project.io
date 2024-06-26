@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="warp" class="warp">
+        
+        <form action="">
+            <h2>login</h2>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="person-circle-outline"></ion-icon>
+                </span>
+                <input type="text" placeholder="Username" required>
+            </div>   
+            <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                <input type="text" placeholder="Password" required>
+            </div>  
+            <div class="forgut">
+                <a href="#">forgut password</a>
+            </div> 
+            <button id="btn" type="submit" onclick="fun('red')">login</button>
+            <div class="registraation">
+                <p>Dont have an account <a href="#">Register</a></p>
+            </div>
+        </form>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+
+
+<script>
+ function fun(col){
+    if(col){
+        document.getElementById("btn").style.background=col;
+
+    }
+    else(col==col);{
+        document.getElementById("warp").style.backgroundColor=col
+    }
+    
+    
+    
+}
+
+       
+    
+
+
+        
+
+    
+    
+    
+ 
+
+
+</script>

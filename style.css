@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 0%);
+    background-image: url("file:///C:/Users/91773/Pictures/Screenshots/Screenshot%202023-10-08%20230228.png");
+
+
+}
+.warp{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height:500px;
+    background:transparent;
+    border: 5px solid #333;
+    border-radius: 10px;
+    transition: .5s;
+}
+.warp:hover{
+    border: 5px solid #0ef;
+    box-shadow: 0 0 20px #0ef,inset 0 0 20px #0ef;
+}
+
+h2{
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+    transition: .5s;
+}
+.warp:hover h2{
+    color: #0ef;
+
+}
+.input-box{
+    position: relative;
+    width: 320px;
+    margin: 30px 0;
+
+}
+
+
+
+.input-box input{
+    width: 100%;
+    height: 50px;
+    background:transparent;
+    border: 2px solid #333;
+    outline: none;
+    border-radius: 50px;
+    font-size: 1em;
+    color: #fff;
+    padding: 0 10px 0 35px;
+    
+}
+.warp:hover input{
+    border: 2px solid #0ef;
+}
+.input-box .icon{
+    color: rgba(255, 255, 255, .3);
+
+}
+
+
+
+
+.input-box .icon{
+    position: absolute;
+    left: 10px;
+    color: #fff;
+    font-size: 1.2em;
+    line-height: 55px;
+
+}
+
+
+
+
+
+.forgut{
+    margin: -15px 0 15px;
+
+}
+
+.forgut a{
+    color: #fff;
+    font-size: .9em;
+    text-decoration: none;
+
+}
+
+.forgut a:hover{
+    text-decoration: underline;
+
+}
+button{
+    position: relative;
+    width: 100%;
+    height: 45px;
+    background-color: #333;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+    transition: .5s;
+
+
+}
+.warp:hover button{
+    color: #333;
+    background: #0ef;
+    box-shadow: 0 0 20px #0ef;
+
+}
+
+.registraation{
+    font-size: .9em;
+    text-align: center;
+    margin: 25px 0;
+
+}
+
+.registraation p{
+    color: #fff;
+
+
+}
+
+.registraation p a{
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.registraation p a:hover{
+text-decoration: underline;
+}
+.warp p:hover a{
+    color:red;
+}
+
